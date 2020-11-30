@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic','Futura';
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/semi-transbgtransparent.png);
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 700px){
+    header,
+    .Media,
+    .Media2,
+    .Media3,
+    .button,
+    .btn,
+    .img,
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .logo,
+    .main,
+    .title,
+    body,
+    .title h1 {
+        width: auto;
+        height: auto;
+        margin: auto;
+        padding: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+}
+
+.Media{  
+    width: 160px;
+    height: 60px;
+    background-color: red;
+    animation-name: Media;
+    animation-duration: 6s;  
+    color: white;
+}
+
+.Media2{  
+    width: 160px;
+    height: 60px;
+    background-color: rgb(3, 3, 75);
+    animation-name: Media2;
+    animation-duration: 60s;  
+    color: white;
+    margin-top: 770px;
+}
+
+.Media3{  
+    width: 160px;
+    height: 60px;
+    background-color: rgb(14, 73, 19);
+    animation-name: Media2;
+    animation-duration: 60s;  
+    color: black;
+    margin-top: -60px;
+    margin-left: 1748px;
+}
+
+.button{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate( -50%,-50%);
+    margin-top: 420px;
+    margin-left: -477px;
+}
+
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.9s ease;
+}
+
+.btn:hover{
+    background-color: white;
+    color: white;
+
+}
+
+.wraper{
+    width: 100px;
+    height: 400px;
+}
+
+.img{  
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    margin-top: 200px;
+    margin-left: 380px;
+    border-radius: 3%;
+}
+
+.img1{
+    margin: auto;
+    border-radius: 15px 50px 30px;
+    width: 60%;
+    padding: 10px;
+    border-radius: 3%;
+    margin-left: 380px;
+    margin-top: 20px;
+}
+
+.img2{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    border-radius: 3%;
+    margin-left: 380px;
+    margin-top: 20px;
+}
+
+.img3{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    border-radius: 3%;
+    margin-left: 380px;
+    margin-top: 20px;
+}
+
+.img4{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    border-radius: 3%;
+    margin-left: 380px;
+    margin-top: 20px;
+}
+
+.img5{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    border-radius: 3%;
+    margin-left: 380px;
+    margin-top: 20px;
+}
+
+ul{
+    margin-right: -90px;
+    float: right;
+    list-style-type: none;
+    color: black;
+    font-weight: normal;
+    margin-top: 30px; 
+}
+
+ul li{
+    display: inline-block; 
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border:1px solid white transparent; 
+    transition: 0.9s ease;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: white;
+}
+
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+
+.logo img{
+    border-radius: 50%;
+    float: right;
+    width: 5%;
+    height: auto;
+    opacity: 0.6;
+    margin-right: 1px;
+    margin-top: 960px;
+}
+
+.main: {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    margin-top: -40px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: white;
+    font-size: 70px;
+    text-shadow: 2px 2px 4px #000000
+}
+
+body{
+    background-image: url(images/69.jg);
+    height: 80vh;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+
+

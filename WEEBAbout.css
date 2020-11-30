@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic','Futura';
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/semi-transbgtransparent.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.Media{  
+    width: 160px;
+    height: 955px;
+    background-color: red;
+    animation-name: Media;
+    animation: Media 10s infinite;
+    color: white;
+    margin-top: -40px;
+}
+
+@keyframes Media {
+    20% {background-color: #405DE6;}
+    25% {background-color: #5851DB;}
+    30% {background-color: #833AB4;}
+    35% {background-color: #C13584;}
+    40% {background-color: #E1306C;}
+    45% {background-color: #FD1D1D;}
+    50% {background-color: #F56040;}
+    55% {background-color: #F77737;}
+    60% {background-color: #FCAF45;}
+    65% {background-color: #FFDC80;}
+    70% {background-color: #FCAF45;}
+    75% {background-color: #F77737;}
+    80% {background-color: #F56040;}
+    85% {background-color: #FD1D1D;}
+    90% {background-color: #E1306C;}
+    95% {background-color: #C13584;}
+    100%  {background-color: #833AB4;}
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    color: black;
+    font-weight: normal;
+    margin-top: 30px;  
+}
+
+ul li{
+    display: inline-block; 
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border:1px solid white transparent; 
+    transition: 0.9s ease;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+
+p{
+    margin-top: 10px;
+    color: white;
+}
+
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+    display: inline-block; 
+}
+
+.main: {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h2{
+    color: white;
+    font-size: 40px;
+    border-radius: 10px;
+    border-bottom: solid #6E6A6B;
+    border-width: 1px;
+    width: 1200px;
+}
+
